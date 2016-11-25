@@ -68,7 +68,7 @@ ITEM_PIPELINES = {
 	'scrapy.pipelines.files.FilesPipeline': 1
 }
 
-FILES_STORE = 'scrapped_files/'
+FILES_STORE = 'scrapped_comics/'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

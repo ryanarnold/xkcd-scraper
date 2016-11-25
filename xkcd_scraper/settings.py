@@ -90,3 +90,11 @@ FILES_STORE = 'scrapped_comics/'
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+FEED_FORMAT = 'JSON'
+FEED_URI = 'feed_exports/comic_details.json'
+FEED_EXPORT_FIELDS = [
+	'title',
+	'desc',
+	'filename',
+]

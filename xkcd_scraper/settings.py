@@ -68,7 +68,7 @@ ITEM_PIPELINES = {
 	'scrapy.pipelines.files.FilesPipeline': 1
 }
 
-FILES_STORE = 'scrapped_comics/'
+FILES_STORE = 'output/comics/'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -92,7 +92,7 @@ FILES_STORE = 'scrapped_comics/'
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 FEED_FORMAT = 'JSON'
-FEED_URI = 'feed_exports/comic_details.json'
+FEED_URI = 'output/comic_details.json'
 FEED_EXPORT_FIELDS = [
 	'title',
 	'desc',

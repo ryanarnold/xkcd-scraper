@@ -9,7 +9,7 @@ import scrapy
 
 
 class ComicItem(scrapy.Item):
-	title = scrapy.Field()
-	desc = scrap.Field()
+    title = scrapy.Field()
+    desc = scrapy.Field()
     file_urls = scrapy.Field()
     files = scrapy.Field()

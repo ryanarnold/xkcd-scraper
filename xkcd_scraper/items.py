@@ -11,5 +11,6 @@ import scrapy
 class ComicItem(scrapy.Item):
     title = scrapy.Field()
     desc = scrapy.Field()
+    filename = scrapy.Field()
     file_urls = scrapy.Field()
     files = scrapy.Field()
